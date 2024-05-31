@@ -1,0 +1,11 @@
+.gallery {
+  padding: 24px;
+}
+
+.gallery .ant-list-item {
+  text-align: center;
+}
+
+.gallery .ant-card-meta-title {
+  margin-top: 16px;
+}

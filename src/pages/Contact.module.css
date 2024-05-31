@@ -1,0 +1,11 @@
+.contact {
+  padding: 24px;
+}
+
+.contact .ant-form-item {
+  margin-bottom: 16px;
+}
+
+.textArea {
+  max-height: 150px;
+}

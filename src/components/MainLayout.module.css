@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+
+.demo-logo-vertical {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.layout {
+  min-height: 100vh;
+}
+
+.header {
+  padding: 0;
+  background: var(--colorBgContainer);
+}
+
+.content {
+  margin: 24px 16px 0;
+  margin-left: 200px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    margin: 24px 0 0;
+    margin-left: 80px;
+  }
+}
+
+@media (max-width: 500px) {
+  .content {
+    margin-left: 60px;
+  }
+}
+
+.innerContent {
+  padding: 24px;
+  min-height: 360px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.collapseButton {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.sider {
+  z-index: 99999;
+}

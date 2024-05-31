@@ -1,0 +1,58 @@
+.home {
+  text-align: center;
+  padding: 50px;
+}
+
+.galleryPreviewContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.galleryPreview {
+  display: grid;
+  position: relative;
+  max-width: 670px;
+  margin-inline: auto;
+  grid-template-columns: repeat(auto-fill, 160px);
+  grid-gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.previewImageContainer {
+  position: relative;
+  width: 160px;
+  height: 160px;
+}
+
+.previewImage {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.blurred {
+  filter: blur(5px);
+}
+
+.viewMoreButton {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .galleryPreview {
+    grid-template-columns: repeat(auto-fill, 100px);
+    grid-gap: 5px;
+  }
+
+  .previewImageContainer {
+    width: 100px;
+    height: 100px;
+  }
+
+  .previewImage {
+    width: 100px;
+    height: 100px;
+  }
+}
